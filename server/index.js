@@ -6,7 +6,7 @@ var cors = require('cors');
 app.use(cors({origin: '*'}));
 
 const userRoutes = require("./routes/user");
-const profileRoutes = require("./routes/Profile");
+const profileRoutes = require("./routes/profile");
 const courseRoutes = require("./routes/Course");
 const paymentRoutes = require("./routes/Payments");
 
